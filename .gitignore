@@ -3,3 +3,6 @@ Thumbs.db
 *.bak
 .DS_Store
 
+.cache/
+.cache/*
+*/*.o
