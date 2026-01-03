@@ -20,7 +20,7 @@ RAMDISK =  #-DRAMDISK=512
 include Makefile.header
 
 LDFLAGS	+= -Ttext 0 -e startup_32
-CFLAGS	+= $(RAMDISK) -Iinclude
+CFLAGS	+= $(RAMDISK) -Iinclude -std=gnu89 -Wno-implicit-int
 CPP	+= -Iinclude
 
 #

@@ -5,4 +5,6 @@ Thumbs.db
 
 .cache/
 .cache/*
-*/*.o
+*.o
+compile_commands.json
+

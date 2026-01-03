@@ -5,6 +5,7 @@
  */
 
 /* bitmap.c contains the code that handles the inode and block bitmaps */
+#include <stddef.h>
 #include <string.h>
 
 #include <linux/sched.h>
@@ -43,6 +44,8 @@ __asm__ __volatile__ ("cld\n" \
 	"3:" \
 	:"=c" (__res):"c" (0),"S" (addr)); \
 __res;})
+
+int memset(void *,char,size_t);
 
 void free_block(int dev, int block)
 {
