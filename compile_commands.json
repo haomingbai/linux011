@@ -1,0 +1,973 @@
+[
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-Iinclude",
+      "-std=gnu89",
+      "-Wno-implicit-int",
+      "-c",
+      "-o",
+      "init/main.o",
+      "init/main.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux",
+    "file": "/home/haomingbai/public_projects/linux/init/main.c",
+    "output": "/home/haomingbai/public_projects/linux/init/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "sched.o",
+      "sched.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/kernel",
+    "file": "/home/haomingbai/public_projects/linux/kernel/sched.c",
+    "output": "/home/haomingbai/public_projects/linux/kernel/sched.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "traps.o",
+      "traps.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/kernel",
+    "file": "/home/haomingbai/public_projects/linux/kernel/traps.c",
+    "output": "/home/haomingbai/public_projects/linux/kernel/traps.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "fork.o",
+      "fork.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/kernel",
+    "file": "/home/haomingbai/public_projects/linux/kernel/fork.c",
+    "output": "/home/haomingbai/public_projects/linux/kernel/fork.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "panic.o",
+      "panic.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/kernel",
+    "file": "/home/haomingbai/public_projects/linux/kernel/panic.c",
+    "output": "/home/haomingbai/public_projects/linux/kernel/panic.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "printk.o",
+      "printk.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/kernel",
+    "file": "/home/haomingbai/public_projects/linux/kernel/printk.c",
+    "output": "/home/haomingbai/public_projects/linux/kernel/printk.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "vsprintf.o",
+      "vsprintf.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/kernel",
+    "file": "/home/haomingbai/public_projects/linux/kernel/vsprintf.c",
+    "output": "/home/haomingbai/public_projects/linux/kernel/vsprintf.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "sys.o",
+      "sys.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/kernel",
+    "file": "/home/haomingbai/public_projects/linux/kernel/sys.c",
+    "output": "/home/haomingbai/public_projects/linux/kernel/sys.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "exit.o",
+      "exit.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/kernel",
+    "file": "/home/haomingbai/public_projects/linux/kernel/exit.c",
+    "output": "/home/haomingbai/public_projects/linux/kernel/exit.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "signal.o",
+      "signal.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/kernel",
+    "file": "/home/haomingbai/public_projects/linux/kernel/signal.c",
+    "output": "/home/haomingbai/public_projects/linux/kernel/signal.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "mktime.o",
+      "mktime.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/kernel",
+    "file": "/home/haomingbai/public_projects/linux/kernel/mktime.c",
+    "output": "/home/haomingbai/public_projects/linux/kernel/mktime.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "who.o",
+      "who.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/kernel",
+    "file": "/home/haomingbai/public_projects/linux/kernel/who.c",
+    "output": "/home/haomingbai/public_projects/linux/kernel/who.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "memory.o",
+      "memory.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/mm",
+    "file": "/home/haomingbai/public_projects/linux/mm/memory.c",
+    "output": "/home/haomingbai/public_projects/linux/mm/memory.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "open.o",
+      "open.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/fs",
+    "file": "/home/haomingbai/public_projects/linux/fs/open.c",
+    "output": "/home/haomingbai/public_projects/linux/fs/open.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "read_write.o",
+      "read_write.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/fs",
+    "file": "/home/haomingbai/public_projects/linux/fs/read_write.c",
+    "output": "/home/haomingbai/public_projects/linux/fs/read_write.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "inode.o",
+      "inode.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/fs",
+    "file": "/home/haomingbai/public_projects/linux/fs/inode.c",
+    "output": "/home/haomingbai/public_projects/linux/fs/inode.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "file_table.o",
+      "file_table.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/fs",
+    "file": "/home/haomingbai/public_projects/linux/fs/file_table.c",
+    "output": "/home/haomingbai/public_projects/linux/fs/file_table.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "buffer.o",
+      "buffer.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/fs",
+    "file": "/home/haomingbai/public_projects/linux/fs/buffer.c",
+    "output": "/home/haomingbai/public_projects/linux/fs/buffer.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "super.o",
+      "super.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/fs",
+    "file": "/home/haomingbai/public_projects/linux/fs/super.c",
+    "output": "/home/haomingbai/public_projects/linux/fs/super.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "block_dev.o",
+      "block_dev.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/fs",
+    "file": "/home/haomingbai/public_projects/linux/fs/block_dev.c",
+    "output": "/home/haomingbai/public_projects/linux/fs/block_dev.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "char_dev.o",
+      "char_dev.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/fs",
+    "file": "/home/haomingbai/public_projects/linux/fs/char_dev.c",
+    "output": "/home/haomingbai/public_projects/linux/fs/char_dev.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "file_dev.o",
+      "file_dev.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/fs",
+    "file": "/home/haomingbai/public_projects/linux/fs/file_dev.c",
+    "output": "/home/haomingbai/public_projects/linux/fs/file_dev.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "stat.o",
+      "stat.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/fs",
+    "file": "/home/haomingbai/public_projects/linux/fs/stat.c",
+    "output": "/home/haomingbai/public_projects/linux/fs/stat.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "exec.o",
+      "exec.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/fs",
+    "file": "/home/haomingbai/public_projects/linux/fs/exec.c",
+    "output": "/home/haomingbai/public_projects/linux/fs/exec.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "pipe.o",
+      "pipe.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/fs",
+    "file": "/home/haomingbai/public_projects/linux/fs/pipe.c",
+    "output": "/home/haomingbai/public_projects/linux/fs/pipe.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "namei.o",
+      "namei.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/fs",
+    "file": "/home/haomingbai/public_projects/linux/fs/namei.c",
+    "output": "/home/haomingbai/public_projects/linux/fs/namei.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "bitmap.o",
+      "bitmap.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/fs",
+    "file": "/home/haomingbai/public_projects/linux/fs/bitmap.c",
+    "output": "/home/haomingbai/public_projects/linux/fs/bitmap.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "fcntl.o",
+      "fcntl.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/fs",
+    "file": "/home/haomingbai/public_projects/linux/fs/fcntl.c",
+    "output": "/home/haomingbai/public_projects/linux/fs/fcntl.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "ioctl.o",
+      "ioctl.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/fs",
+    "file": "/home/haomingbai/public_projects/linux/fs/ioctl.c",
+    "output": "/home/haomingbai/public_projects/linux/fs/ioctl.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "truncate.o",
+      "truncate.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/fs",
+    "file": "/home/haomingbai/public_projects/linux/fs/truncate.c",
+    "output": "/home/haomingbai/public_projects/linux/fs/truncate.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../../include",
+      "-c",
+      "-o",
+      "ll_rw_blk.o",
+      "ll_rw_blk.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/kernel/blk_drv",
+    "file": "/home/haomingbai/public_projects/linux/kernel/blk_drv/ll_rw_blk.c",
+    "output": "/home/haomingbai/public_projects/linux/kernel/blk_drv/ll_rw_blk.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../../include",
+      "-c",
+      "-o",
+      "floppy.o",
+      "floppy.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/kernel/blk_drv",
+    "file": "/home/haomingbai/public_projects/linux/kernel/blk_drv/floppy.c",
+    "output": "/home/haomingbai/public_projects/linux/kernel/blk_drv/floppy.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../../include",
+      "-c",
+      "-o",
+      "hd.o",
+      "hd.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/kernel/blk_drv",
+    "file": "/home/haomingbai/public_projects/linux/kernel/blk_drv/hd.c",
+    "output": "/home/haomingbai/public_projects/linux/kernel/blk_drv/hd.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../../include",
+      "-c",
+      "-o",
+      "ramdisk.o",
+      "ramdisk.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/kernel/blk_drv",
+    "file": "/home/haomingbai/public_projects/linux/kernel/blk_drv/ramdisk.c",
+    "output": "/home/haomingbai/public_projects/linux/kernel/blk_drv/ramdisk.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../../include",
+      "-c",
+      "-o",
+      "tty_io.o",
+      "tty_io.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/kernel/chr_drv",
+    "file": "/home/haomingbai/public_projects/linux/kernel/chr_drv/tty_io.c",
+    "output": "/home/haomingbai/public_projects/linux/kernel/chr_drv/tty_io.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../../include",
+      "-c",
+      "-o",
+      "console.o",
+      "console.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/kernel/chr_drv",
+    "file": "/home/haomingbai/public_projects/linux/kernel/chr_drv/console.c",
+    "output": "/home/haomingbai/public_projects/linux/kernel/chr_drv/console.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../../include",
+      "-c",
+      "-o",
+      "serial.o",
+      "serial.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/kernel/chr_drv",
+    "file": "/home/haomingbai/public_projects/linux/kernel/chr_drv/serial.c",
+    "output": "/home/haomingbai/public_projects/linux/kernel/chr_drv/serial.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../../include",
+      "-c",
+      "-o",
+      "tty_ioctl.o",
+      "tty_ioctl.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/kernel/chr_drv",
+    "file": "/home/haomingbai/public_projects/linux/kernel/chr_drv/tty_ioctl.c",
+    "output": "/home/haomingbai/public_projects/linux/kernel/chr_drv/tty_ioctl.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../../include",
+      "-c",
+      "-o",
+      "math_emulate.o",
+      "math_emulate.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/kernel/math",
+    "file": "/home/haomingbai/public_projects/linux/kernel/math/math_emulate.c",
+    "output": "/home/haomingbai/public_projects/linux/kernel/math/math_emulate.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "ctype.o",
+      "ctype.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/lib",
+    "file": "/home/haomingbai/public_projects/linux/lib/ctype.c",
+    "output": "/home/haomingbai/public_projects/linux/lib/ctype.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "_exit.o",
+      "_exit.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/lib",
+    "file": "/home/haomingbai/public_projects/linux/lib/_exit.c",
+    "output": "/home/haomingbai/public_projects/linux/lib/_exit.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "open.o",
+      "open.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/lib",
+    "file": "/home/haomingbai/public_projects/linux/lib/open.c",
+    "output": "/home/haomingbai/public_projects/linux/lib/open.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "close.o",
+      "close.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/lib",
+    "file": "/home/haomingbai/public_projects/linux/lib/close.c",
+    "output": "/home/haomingbai/public_projects/linux/lib/close.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "errno.o",
+      "errno.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/lib",
+    "file": "/home/haomingbai/public_projects/linux/lib/errno.c",
+    "output": "/home/haomingbai/public_projects/linux/lib/errno.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "write.o",
+      "write.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/lib",
+    "file": "/home/haomingbai/public_projects/linux/lib/write.c",
+    "output": "/home/haomingbai/public_projects/linux/lib/write.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "dup.o",
+      "dup.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/lib",
+    "file": "/home/haomingbai/public_projects/linux/lib/dup.c",
+    "output": "/home/haomingbai/public_projects/linux/lib/dup.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "setsid.o",
+      "setsid.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/lib",
+    "file": "/home/haomingbai/public_projects/linux/lib/setsid.c",
+    "output": "/home/haomingbai/public_projects/linux/lib/setsid.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "execve.o",
+      "execve.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/lib",
+    "file": "/home/haomingbai/public_projects/linux/lib/execve.c",
+    "output": "/home/haomingbai/public_projects/linux/lib/execve.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "wait.o",
+      "wait.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/lib",
+    "file": "/home/haomingbai/public_projects/linux/lib/wait.c",
+    "output": "/home/haomingbai/public_projects/linux/lib/wait.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "string.o",
+      "string.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/lib",
+    "file": "/home/haomingbai/public_projects/linux/lib/string.c",
+    "output": "/home/haomingbai/public_projects/linux/lib/string.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-g",
+      "-m32",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fomit-frame-pointer",
+      "-fstrength-reduce",
+      "-I../include",
+      "-c",
+      "-o",
+      "malloc.o",
+      "malloc.c"
+    ],
+    "directory": "/home/haomingbai/public_projects/linux/lib",
+    "file": "/home/haomingbai/public_projects/linux/lib/malloc.c",
+    "output": "/home/haomingbai/public_projects/linux/lib/malloc.o"
+  }
+]
