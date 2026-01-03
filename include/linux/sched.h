@@ -217,6 +217,7 @@ __asm__ ("push %%edx\n\t" \
 #define set_base(ldt,base) _set_base( ((char *)&(ldt)) , (base) )
 #define set_limit(ldt,limit) _set_limit( ((char *)&(ldt)) , (limit-1)>>12 )
 
+/**
 #define _get_base(addr) ({\
 unsigned long __base; \
 __asm__("movb %3,%%dh\n\t" \
@@ -229,8 +230,8 @@ __asm__("movb %3,%%dh\n\t" \
 	 "m" (*((addr)+7)) \
         :"memory"); \
 __base;})
+**/
 
-/**
 static inline unsigned long _get_base(char * addr)
 {
          unsigned long __base;
@@ -244,7 +245,6 @@ static inline unsigned long _get_base(char * addr)
                   "m" (*((addr)+7)));
          return __base;
 }
-**/
 
 #define get_base(ldt) _get_base( ((char *)&(ldt)) )
 
